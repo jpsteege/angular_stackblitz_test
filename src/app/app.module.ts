@@ -19,16 +19,6 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 
-// Define Firebase Credentials
-var firebaseConfig = {
-  apiKey: "AIzaSyDz8GInozzTIpET2qX3rw0kAJBDFYVNozA",
-  authDomain: "angular-test-jps.firebaseapp.com",
-  databaseURL: "https://angular-test-jps.firebaseio.com",
-  projectId: "angular-test-jps",
-  storageBucket: "angular-test-jps.appspot.com",
-  messagingSenderId: "407078274242",
-  appId: "1:407078274242:web:f6b07954a357c27bdee75b"
-};
 
 @NgModule({
   imports: [
